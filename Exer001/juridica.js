@@ -1,11 +1,11 @@
 const Pessoa = require('./Pessoa');
 
-class juridica extends Pessoa{
-    constructor(nome, rg, rendaMensal){
-        super(nome, rg ,rendaMensal)
+class juridica extends Pessoa {
+    constructor(nome, rg, rendaMensal) {
+        super(nome, rg, rendaMensal)
     }
 
-    calcularImposto(){
+    calcularImposto() {
         const aliota = 0.15
         const imposto = this.rendaMensal * aliota
         return imposto

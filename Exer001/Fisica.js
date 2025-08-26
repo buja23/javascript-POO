@@ -1,7 +1,7 @@
 const Pessoa = require('./Pessoa');
 
 class Fisica extends Pessoa {
-    constructor(nome, rg, rendaMensal){
+    constructor(nome, rg, rendaMensal) {
         super(nome, rg, rendaMensal)
     }
 
