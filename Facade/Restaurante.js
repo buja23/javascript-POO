@@ -27,7 +27,6 @@ class ChefeDeCozinha {
     }
   }
   
-  // --- A Fachada (O Maître d') ---
   
   class MaîtreDFacade {
     constructor() {
@@ -36,7 +35,6 @@ class ChefeDeCozinha {
       this.sommelier = new Sommelier();
     }
   
-    // Este é o método simples que o cliente (você) interage
     pedirRefeicao(prato, bebida) {
       this.garcom.anotarPedido(prato);
       this.sommelier.sugerirVinho(prato);
@@ -48,22 +46,8 @@ class ChefeDeCozinha {
     }
   }
   
-  // --- O Cliente (Você) ---
+
   
   const maitreD = new MaîtreDFacade();
-  
-  // Você apenas interage com o Maître d' para obter o que precisa,
-  // sem saber a complexidade por trás.
   maitreD.pedirRefeicao("Filet Mignon", "vinho tinto");
   
-  /*
-  Saída no console:
-  Garçom: Anotando o pedido: Filet Mignon.
-  Sommelier: Sugerindo um vinho para harmonizar com Filet Mignon.
-  Cozinha: Preparando a entrada.
-  Cozinha: Preparando o prato principal.
-  Cozinha: Preparando a sobremesa.
-  Garçom: Servindo a mesa.
-  
-  Maître d': A sua refeição de Filet Mignon e vinho tinto está pronta. Bom apetite!
-  */
