@@ -1,0 +1,15 @@
+[
+    {
+        "ra":"1",
+        "nome":"buja",
+        "data_nascimento":"12/03/2005",
+        "meidia":7.3
+    },
+    
+    {
+        "ra":"2",
+        "nome":"bruno",
+        "data_nascimento":"22/09/2001",
+        "meidia":9.2
+    }
+]
