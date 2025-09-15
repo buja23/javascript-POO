@@ -1,0 +1,17 @@
+[
+  {
+    "nome": "notbock",
+    "preco": 5499.99,
+    "quantidadeEstoque": 15
+  },
+  {
+    "nome": "mouse",
+    "preco": 149.50,
+    "quantidadeEstoque": 45
+  },
+  {
+    "nome": "telado",
+    "preco": 350.00,
+    "quantidadeEstoque": 8
+  }
+]

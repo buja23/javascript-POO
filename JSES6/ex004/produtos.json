@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Notebook Gamer Pro",
+    "preco": 6500.00,
+    "quantidadeEstoque": 7
+  },
+  {
+    "nome": "Mouse Vertical Ergonômico",
+    "preco": 250.75,
+    "quantidadeEstoque": 30
+  },
+  {
+    "nome": "Teclado Mecânico Compacto",
+    "preco": 410.00,
+    "quantidadeEstoque": 3
+  },
+  {
+    "nome": "Monitor 4K 27\"",
+    "preco": 1800.50,
+    "quantidadeEstoque": 0
+  }
+]

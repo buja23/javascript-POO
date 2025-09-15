@@ -1,0 +1,26 @@
+[
+  {
+    "ra": "123456",
+    "nome": "Victor Azambuja",
+    "dataNascimento": "2002-05-15",
+    "mediaCurso": 8.5
+  },
+  {
+    "ra": "654321",
+    "nome": "Bruno Oliveira",
+    "dataNascimento": "2003-10-20",
+    "mediaCurso": 9.2
+  },
+  {
+    "ra": "77733",
+    "nome": "Bispao",
+    "dataNascimento": "2006-01-30",
+    "mediaCurso": 3.8
+  },
+  {
+    "ra": "234231",
+    "nome": "Bujex",
+    "dataNascimento": "2005-07-10",
+    "mediaCurso": 8.9
+  }
+]
